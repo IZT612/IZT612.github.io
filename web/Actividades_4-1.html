@@ -30,74 +30,114 @@
 		}
 
 		#divGrande {
-			flex: ;
+			display: inline-block;
+			display: flex;
 		}
 
 		#div1 {
 			background-color: #fedf5d;
+			display: inline-block;
+			width: 400px;
+			height: 200px;
+			border-radius: 12px;
 		}
 
 		#div2 {
 			background-color: #fe675d;
+			display: inline-block;
+			width: 400px;
+			height: 200px;
+			border-radius: 12px;
 		}
 
 		#div3 {
-			bakground-color: #5dc2fe;
-		}
+			background-color: #5dc2fe;
+			display: inline-block;
+			width: 400px;
+			height: 200px;
+			border-radius: 12px;
+			background-repeat: no-repeat;
+			background-size: cover;
 
-		#a1 {
-			width: 100px;
-			height: 50px;
 		}
 
 		#youtube {
 			height: 50px;
 			width: 100px ;
+			background-color: indianred;
 		}
 
 		#twitter {
 			height: 50px;
 			width: 100px ;
+			background-color: cyan;
 		}
 
 		#instagram {
 			height: 50px;
 			width: 100px ;
+			background-color: violet;
 		}
 
+		#docs {
+			height: 50px;
+			width: 100px ;
+			background-color: indianred;
+			display: block;
+		}
+
+		#slides {
+			height: 50px;
+			width: 100px ;
+			background-color: cyan;
+			display: block;
+		}
+
+		#sheets {
+			height: 50px;
+			width: 100px ;
+			background-color: violet;
+			display: block;
+		}
 
 	</style>
 </head>
 <body>
 
-	<div id = "divGrande">
+	<p id = "p1"> Este texto estará alineado en el centro y estará subrayado </p>		
+	<p id = "p2"> este texto se convierte automáticamente a mayúsculas y es el doble de grande</p>
+	<p id = "p3"> Este texto está en la fuente sans serif y además en cursiva</p>
+	<p id = "p4"> Este texto está en negrita y tiene sombreado rojo </p>
 
-		<p id = "p1"> Este texto estará alineado en el centro y estará subrayado </p>
-		<p id = "p2"> este texto se convierte automáticamente a mayúsculas y es el doble de grande</p>
-		<p id = "p3"> Este texto está en la fuente sans serif y además en cursiva</p>
-		<p id = "p4"> Este texto está en negrita y tiene sombreado rojo </p>
+	<div id = "divGrande">
 
 		<div id = "div1">
 
-			<p> Redes sociales: </p>
+			<p> Redes sociales: </p> 
 
-			<a href ="https://www.youtube.com/" id = "youtube a1"> Youtube </a> <br>
-			<a href = "https://x.com/" id = "twitter a1"> Twitter </a> <br>
-			<a href = "https://www.instagram.com/" id = "instagram a1"> Instagram </a> <br>
-
-
+			<a href ="https://www.youtube.com/" id = "youtube"> Youtube </a>
+			<a href = "https://x.com/" id = "twitter"> Twitter </a> 
+			<a href = "https://www.instagram.com/" id = "instagram"> Instagram </a>
 
 		</div>
 
 		<div id = "div2">
 
+			<p> Herramientas de Google: </p>
 
+			<a href ="https://docs.google.com/" id = "docs"> Google docs </a>
+			<a href = "https://workspace.google.com/products/slides/" id = "slides"> Google slides </a> 
+			<a href = "https://workspace.google.com/products/sheets/" id = "sheets"> Google sheets </a>
 
 		</div>
 
 		<div id = "div3">
 
+			<p> Millonarios: </p>
 
+			<a href ="https://es.wikipedia.org/wiki/Elon_Musk" id = "elon"> Elon musk </a>
+			<a href = "https://es.wikipedia.org/wiki/Steve_Jobs" id = "steve"> Steve Jobs </a> 
+			<a href = "https://es.wikipedia.org/wiki/Jeff_Bezos" id = "jeff"> Jeff Bezos </a>
 
 		</div>
 
