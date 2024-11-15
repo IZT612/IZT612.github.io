@@ -1,0 +1,21 @@
+body {
+	background-color: #B5F4FF;
+}
+
+h1 {
+	font-style: Helvetica;
+}
+
+header {
+	background-color: #007bff;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
