@@ -6,16 +6,114 @@ h1 {
 	font-style: Helvetica;
 }
 
-header {
-	background-color: #007bff;
+h2 {
+	font-size: 30px;
 }
 
-a{
+section {
+	background-color: aquamarine;
+	box-shadow: 4px 4px 10px #007bff;
+	width: 100%;
+	margin: 20px 0px;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #007bff;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#contenido {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+}
+
+#inicio {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+
+#contacto {
+	display: flex;
+	justify-content: center;
+}
+
+#formulario {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 10px 0px;
+}
+
+#sobremi {
+	display: flex;
+	flex-direction: column;
+}
+
+#sobremi img {
+	width: 15%;
+	height: auto;
+}
+
+#divsobremi {
+	margin-left: 20px;
+}
+
+img {
+	box-shadow: 4px 4px 10px #000000;
+	margin: 20px 0px;
+}
+
+.imgindex {
+	width: 25%;
+	height: 25%;
+}
+
+nav a{
+	display: flex;
 	color: white;
 	text-decoration: none;
+	width: auto;
+	
 }
 
-a:hover {
+nav a:hover {
 	color: black;
 }
 
+section a {
+	margin: 0px 10px;
+	width: 25%;
+	display: inline;
+}
+
+.imginicio {
+	width: 100%;
+	height: auto;
+}
+
+textarea, button, input {
+	border-radius: 10px;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 100px;
+}
